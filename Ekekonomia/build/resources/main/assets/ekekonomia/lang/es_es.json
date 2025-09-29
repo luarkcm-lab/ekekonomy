@@ -1,0 +1,16 @@
+{
+  "shop.category.blocks": "Bloques",
+  "shop.category.food": "Comida",
+  "shop.category.minerals": "Minerales",
+  "shop.category.tools": "Herramientas",
+  "shop.category.weapons_armor": "Armas y Armaduras",
+  "shop.category.agriculture": "Agricultura",
+  "shop.category.dyes": "Tintes",
+  "shop.category.miscellaneous": "Misceláneas",
+  "shop.category.mob_loot": "Botín de Mobs",
+  "shop.money": "Dinero: %s",
+  "shop.buy": "Comprar: %s",
+  "shop.sell": "Vender: %s",
+  "shop.title": "Tienda",
+  "mob.money_earned": "¡Ganaste %s monedas!"
+}

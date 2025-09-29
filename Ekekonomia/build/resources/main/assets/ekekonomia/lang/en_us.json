@@ -1,0 +1,16 @@
+{
+  "shop.category.blocks": "Blocks",
+  "shop.category.food": "Food",
+  "shop.category.minerals": "Minerals",
+  "shop.category.tools": "Tools",
+  "shop.category.weapons_armor": "Weapons & Armor",
+  "shop.category.agriculture": "Agriculture",
+  "shop.category.dyes": "Dyes",
+  "shop.category.miscellaneous": "Miscellaneous",
+  "shop.category.mob_loot": "Mob Loot",
+  "shop.money": "Money: %s",
+  "shop.buy": "Buy: %s",
+  "shop.sell": "Sell: %s",
+  "shop.title": "Shop",
+  "mob.money_earned": "You earned %s coins!"
+}

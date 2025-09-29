@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "ekekonomia",
+  "version": "1.0.0",
+  "name": "Ekekonomia",
+  "description": "A vanilla-style economy and shop system for skyblock gameplay",
+  "authors": [
+    "Fernando"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Fernando/Ekekonomia",
+    "sources": "https://github.com/Fernando/Ekekonomia"
+  },
+  "license": "MIT",
+  "icon": "assets/ekekonomia/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ekekonomia.EkekonomiaMod"
+    ],
+    "client": [
+      "com.ekekonomia.client.EkekonomiaClientMod"
+    ]
+  },
+  "mixins": [
+    "ekekonomia.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

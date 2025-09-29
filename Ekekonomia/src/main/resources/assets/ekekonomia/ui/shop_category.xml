@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowLayout xmlns="http://www.wispforest.io/owo" sizing="100% 100%" alignment="center">
+    <FlowLayout sizing="content" direction="vertical" alignment="center" gap="10">
+        <!-- Contenido se construye dinámicamente -->
+    </FlowLayout>
+</FlowLayout>

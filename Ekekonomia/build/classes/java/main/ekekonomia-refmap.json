@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "com/ekekonomia/mixins/InventoryScreenMixin": {
+      "init": "Lnet/minecraft/class_490;method_25426()V"
+    },
+    "com/ekekonomia/mixins/PlayerEntityMixin": {
+      "initDataTracker": "Lnet/minecraft/class_1657;method_5693(Lnet/minecraft/class_2945$class_9222;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/ekekonomia/mixins/InventoryScreenMixin": {
+        "init": "Lnet/minecraft/class_490;method_25426()V"
+      },
+      "com/ekekonomia/mixins/PlayerEntityMixin": {
+        "initDataTracker": "Lnet/minecraft/class_1657;method_5693(Lnet/minecraft/class_2945$class_9222;)V"
+      }
+    }
+  }
+}

@@ -22,20 +22,8 @@ public class ItemDetailScreen extends HandledScreen<ItemDetailScreenHandler> {
         int x = (this.width - this.backgroundWidth) / 2;
         int y = (this.height - this.backgroundHeight) / 2;
         
-        // Intentar cargar la textura personalizada usando diferentes métodos
-        try {
-            // Método 1: drawTexture con firma completa
-            context.drawTexture(TEXTURE, x, y, 0, 0, this.backgroundWidth, this.backgroundHeight, this.backgroundWidth, this.backgroundHeight);
-        } catch (Exception e1) {
-            try {
-                // Método 2: drawTexture con firma simple
-                context.drawTexture(TEXTURE, x, y, 0, 0, this.backgroundWidth, this.backgroundHeight);
-            } catch (Exception e2) {
-                // Fallback a colores sólidos si ambos métodos fallan
-                context.fill(x, y, x + this.backgroundWidth, y + this.backgroundHeight, 0xFF2F2F2F); // Color gris oscuro
-                context.fill(x + 1, y + 1, x + this.backgroundWidth - 1, y + this.backgroundHeight - 1, 0xFF1F1F1F); // Borde más oscuro
-            }
-        }
+        // Dibujar la textura personalizada
+        context.drawTexture(TEXTURE, x, y, 0, 0, this.backgroundWidth, this.backgroundHeight);
     }
 
     @Override
